@@ -1,0 +1,63 @@
+.library {
+    position: fixed;
+    top: 0;
+    height: 0;
+    width: 20rem;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 50px rgb(204, 204, 204);
+    overflow: scroll;
+    h2 {
+        padding: 2rem;
+    }
+}
+.Library-Song{
+ cursor: pointer;
+display: flex ;
+flex-wrap: wrap;
+align-items: center;
+padding: 1rem 2rem 1rem 2rem;
+&:hover{
+    background-color: rgb(222, 222, 255);
+}
+.img-container2 {
+   
+    width: 30%;
+    height: 60px;
+    
+  }
+  img {
+    width: 100%;
+    height: 100%;
+   
+    object-fit: cover;
+  }
+  .song-descreption {
+    padding-left: 1rem;
+    h3 {
+      font-size: 1rem;
+    }
+    h4 {
+      font-size: 0.7rem;
+    }
+  
+  }
+}
+*{
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155,155,155,0.5)transparent;
+}
+*::-webkit-scrollbar{
+ width: 5px; 
+}
+*::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+*::-webkit-scrollbar-thumb{
+  background-color:  rgba(155,155,155,0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+.selected{
+  background-color: rgb(165, 181, 228);
+}
