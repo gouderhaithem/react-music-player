@@ -1,11 +1,14 @@
 .library {
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    opacity: 0;
     position: fixed;
     top: 0;
     height: 0;
     width: 20rem;
     height: 100%;
     background-color: white;
-    box-shadow: 2px 2px 50px rgb(204, 204, 204);
+    box-shadow: 2px 2px 20px rgb(204, 204, 204);
     overflow: scroll;
     h2 {
         padding: 2rem;
@@ -20,6 +23,7 @@ padding: 1rem 2rem 1rem 2rem;
 &:hover{
     background-color: rgb(222, 222, 255);
 }
+
 .img-container2 {
    
     width: 30%;
@@ -60,4 +64,8 @@ padding: 1rem 2rem 1rem 2rem;
 }
 .selected{
   background-color: rgb(165, 181, 228);
+}
+.active-library{
+  transform: translateX(0%);
+  opacity: 1;
 }

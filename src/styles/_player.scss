@@ -10,6 +10,7 @@
     width: 50%;
    
     input{
+        
         width: 100%;
         padding: 1rem 0rem;
         cursor: pointer;
@@ -27,5 +28,17 @@
     svg{
         cursor: pointer;
     }
-
+   
 }
+/*
+input[type="range"]:focus{
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    outline: none;
+    height: 16px;
+    width: 16px;
+    background:black ;
+}
+*/
