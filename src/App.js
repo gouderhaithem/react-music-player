@@ -62,9 +62,6 @@ function App() {
   };
   return (
     <div className="App dark">
-      <button id="corner-btn" onClick={darkModeHandler}>
-        Click me!
-      </button>
       <Nav libraryStatus={libraryStatus} SetLibraryStatus={SetLibraryStatus} />
       <Song currentSong={currentSong} />
       <Player
@@ -85,7 +82,7 @@ function App() {
         isPlaying={isPlaying}
         SetSongs={SetSongs}
         libraryStatus={libraryStatus}
-        darkMode = {darkMode}
+        darkMode={darkMode}
       />
       <audio
         //ki yjib data t3 song ydir update direct
@@ -96,6 +93,16 @@ function App() {
         onCanPlay={handleCanPlay}
         onEnded={songEndHandler}
       ></audio>
+      <div class="checkbox-wrapper-7">
+        <input
+          class="tgl tgl-ios"
+          id="cb2-7"
+          type="checkbox"
+          checked={darkMode}
+          onChange={darkModeHandler}
+        />
+        <label class="tgl-btn" for="cb2-7" />
+      </div>
     </div>
   );
 }
