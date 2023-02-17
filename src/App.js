@@ -93,15 +93,15 @@ function App() {
         onCanPlay={handleCanPlay}
         onEnded={songEndHandler}
       ></audio>
-      <div class="checkbox-wrapper-7">
+      <div className="checkbox-wrapper-7">
         <input
-          class="tgl tgl-ios"
+          className="tgl tgl-ios"
           id="cb2-7"
           type="checkbox"
           checked={darkMode}
           onChange={darkModeHandler}
         />
-        <label class="tgl-btn" for="cb2-7" />
+        <label className="tgl-btn" htmlFor="cb2-7" />
       </div>
     </div>
   );

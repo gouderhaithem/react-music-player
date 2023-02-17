@@ -54,7 +54,11 @@ h3,h4 {
         &:hover {
             background-color:  white;
             color: rgb(65, 65, 65);
+            svg{
+                color: black
+            }
         }
+        
     }
     
 }
