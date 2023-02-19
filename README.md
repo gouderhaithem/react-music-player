@@ -3,6 +3,18 @@
 
    live view : https://haithem00gouder.github.io/react-music-player/
    
+   
+   
+web version :
+
+   ![webb](https://user-images.githubusercontent.com/88113629/219952820-494a442f-9cec-4be9-a10f-0968b225ba57.png)
+   
+   
+
+   ![webw](https://user-images.githubusercontent.com/88113629/219952816-0fe97d3d-b08d-48f7-88d6-f88e03006645.png)
+   
+   
+   
    phone version : 
    
    
@@ -13,12 +25,4 @@
 
 ![phonew](https://user-images.githubusercontent.com/88113629/219952822-a62b8268-8f97-44e0-830f-73ec54e130b0.png)
 
-web version :
-
-   ![webw](https://user-images.githubusercontent.com/88113629/219952816-0fe97d3d-b08d-48f7-88d6-f88e03006645.png)
-   
-   
-   
-   
-![webb](https://user-images.githubusercontent.com/88113629/219952820-494a442f-9cec-4be9-a10f-0968b225ba57.png)
 
